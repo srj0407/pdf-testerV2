@@ -1,14 +1,9 @@
 {
-  "functions": {
-    "api/pdf_syllabus_parseer.py": {
-      "runtime": "python@3.9.16"
-    }
-  },
+  "name": "pdf-tester",
   "routes": [
     {
-      "src": "extract",
-      "dest": "/api/pdf_syllabus_parseer.py"
+      "src": "/.*",
+      "dest": "/"
     }
-  ],
-  "installCommand": "npm install --legacy-peer-deps"
+  ]
 }
