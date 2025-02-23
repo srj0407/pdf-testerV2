@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/pdf_syllabus_parseer.py": {
+      "runtime": "python@3.9.16"
+    }
+  },
+  "routes": [
+    {
+      "src": "extract",
+      "dest": "/api/pdf_syllabus_parseer.py"
+    }
+  ],
+  "installCommand": "npm install --legacy-peer-deps"
+}
