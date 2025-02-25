@@ -1,9 +1,0 @@
-{
-  "name": "pdf-tester",
-  "routes": [
-    {
-      "src": "/.*",
-      "dest": "/"
-    }
-  ]
-}

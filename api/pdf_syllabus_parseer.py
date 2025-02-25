@@ -197,7 +197,7 @@ def extract_pdf_sections():
     # os.remove(file_path)
     return jsonify(extracted_data)
 
-# In place of app.run Can use it 
+# In place of app.run cant't use it 
 def handler(event, context):
     return app(event, context)
 
