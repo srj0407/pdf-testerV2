@@ -194,7 +194,7 @@ def extract_pdf_sections():
         
         extracted_data[section] = section_text
 
-    # os.remove(file_path)
+    os.remove(file_path)
     return jsonify(extracted_data)
 
 # In place of app.run cant't use it 

@@ -2,4 +2,4 @@ flask
 pdfplumber
 pdf2image
 pytesseract
-Pillow
+pillow

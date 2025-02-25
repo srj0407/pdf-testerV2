@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "api/pdf_syllabus_parser.py": {
+        "runtime": "python3.9"
+      }
+    }
+  }
+  
