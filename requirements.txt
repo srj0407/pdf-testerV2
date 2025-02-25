@@ -1,5 +1,5 @@
-flask
+Flask==3.0.3
 pdfplumber
-pdf2image
 pytesseract
+pdf2image
 pillow
